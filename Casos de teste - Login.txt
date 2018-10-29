@@ -1,0 +1,59 @@
+﻿Casos de Teste Efetuar Login.
+
+1 - Login com o email e senha em branco.
+	Caso de Teste: CT001 - Efetuar login com os campos "Email address" e "Password" em branco.
+	Pré-condições: Estar na tela de Autenticação.
+	Procedimentos:  1 - Deixar o campo "Email address" em branco.
+		        2 - Deixar o campo "Password" em branco.
+		        3 - Clicar no botão "Sign in".
+    Resultado esperado: Deve aparecer a seguinte mensagem "An email address required."
+#----------------------------------------------------------------------------------------------------#
+
+2 - Login com senha em branco.
+	Caso de Teste: CT002 - Efetuar o login preenchendo o campo "Email address" com um Email válido e 
+	deixar o campo "Password" em branco.
+	Pré-condições: Estar na tela de Autenticação.
+	Procedimentos:  1 - Preencher o campo "Email address" com um Email válido.
+			2 - Deixar o campo "Password" em branco.
+			3 - Clicar no botão "Sign in".
+	Resultado esperado : Deve aparecer a seguinte mensagem "Password is required."
+#----------------------------------------------------------------------------------------------------#
+	
+3 - Login com email em branco.
+	Caso de Teste: CT003 - Efetuar login com o campo "Email address" em branco e preencher o campo "Password" 
+	com uma senha válida.
+	Pré-condições: Estar na tela de Autenticação.
+	Procedimentos:  1 - Deixar o campo "Email address" em branco.
+			2 - Preencher o campo "Password" com uma senha válida.
+			3 - Clicar no botão "Sign in".
+	Resultado esperado : Deve aparecer a seguinte mensagem "An email address required."
+#----------------------------------------------------------------------------------------------------#
+
+4 - Login com email válido e senha inválida.
+	Caso de Teste: CT004 - Efetuar login preenchendo o campo "Email address" com um email válido e preencher o 
+	campo "Password" com uma senha inválida.
+	Pré-condições: Estar na tela de Autenticação.
+	Procedimentos:  1 - Preencher o campo "Email address" com um email válido.
+		     	2 - Preencher o campo "Password" com uma senha inválida.
+			3 - Clicar no botão "Sign in".
+	Resultado esperado : Deve aparecer a seguinte mensagem "Invalid password."
+#----------------------------------------------------------------------------------------------------#
+
+5 - Login com email inválido e senha válida.
+	Caso de Teste: CT005 - Efetuar login preenchendo o campo "Email address" com um email inválido e preencher o 
+	campo "Password" com uma senha válida.
+	Pré-condições: Estar na tela de Autenticação.
+	Procedimentos:  1 - Preencher o campo "Email address" com um email inválido.
+			2 - Preencher o campo "Password" com uma senha válida.
+			3 - Clicar no botão "Sign in".
+	Resultado esperado : Deve aparecer a seguinte mensagem "Authentication failed."
+#----------------------------------------------------------------------------------------------------#
+
+6 - Login com email e senha válida.
+	Caso de Teste: CT006 - Efetuar login preenchendo o campo "Email address" com um email válido e o campo 
+	"Password" com uma senha válida.
+	Pré-condições: Estar na tela de Autenticação.
+	Procedimentos:  1 - Preencher o campo "Email address" com um email válido.
+			2 - Preencher o campo "Password" com uma senha válida.
+		        3 - Clicar no botão "Sign in".
+    Resultado esperado : A tela "MY ACCOUNT" deve ser aprensentada.

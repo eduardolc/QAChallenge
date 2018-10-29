@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="2" tests="6" time="10.469">
+ <testsuite name="Cenário de Login E-commerce" timestamp="2018-10-29T11:57:08" hostname="localhost" time="10.469" errors="0" tests="6" skipped="0" disabled="0" failures="2">
+  <testcase classname="Cenário de Login E-commerce" name="CT001 - Efetuar login com os campos &apos;Email address&apos; e &apos;Password&apos; em branco." time="3.269" />
+  <testcase classname="Cenário de Login E-commerce" name="CT002 - Efetuar o login preenchendo o campo &apos;Email address&apos; com umEmail válido e deixar o campo Password  em branco." time="1.402" />
+  <testcase classname="Cenário de Login E-commerce" name="CT003 - Efetuar login com o campo &apos;Email address&apos; em branco e preencher o campo &apos;Password&apos;com uma senha válida." time="1.58" />
+  <testcase classname="Cenário de Login E-commerce" name="CT004 - Efetuar login preenchendo o campo &apos;Email address&apos; com um email válido e preencher o campo &apos;Password&apos; com uma senha inválida." time="1.33">
+   <failure type="toEqual" message="Expected &apos;An email address required.&apos; to equal &apos;Invalid password.&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\Eduardo\Desktop\QAChallenge\specs\login.spec.js:40:81)
+    at C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Cenário de Login E-commerce" name="CT005 - Efetuar login preenchendo o campo &apos;Email address&apos; com um email inválido e preencher ocampo &apos;Password&apos; com uma senha válida." time="1.596">
+   <failure type="toEqual" message="Expected &apos;An email address required.&apos; to equal &apos;Authentication failed.&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\Eduardo\Desktop\QAChallenge\specs\login.spec.js:49:81)
+    at C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\Eduardo\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+  <testcase classname="Cenário de Login E-commerce" name="CT006 - Efetuar login preenchendo o campo &apos;Email address&apos; com um email v?lido e o campo&apos;Password&apos; com uma senha válida." time="1.292" />
+ </testsuite>
+</testsuites>

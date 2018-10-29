@@ -1,0 +1,21 @@
+{
+  "name": "qachallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "echo \"Atualizando webdriver\" && webdriver-manager update",
+    "start": "echo \"Iniciando o webdriver\" && webdriver-manager start"
+  },
+  "author": "José Eduardo",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.1",
+    "protractor-html-reporter-2": "^1.0.4",
+    "protractor-jasmine2-html-reporter": "0.0.7"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
